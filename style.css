@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .half-width{
     width: 40%;
     float: left;
@@ -7,4 +11,49 @@
 
 .half-width img{
     width: 100%;   
+}
+.br-top{
+    background-image: url("image/bi.jpg");
+    background-repeat: no-repeat;
+    background-size: 1900px 400px;
+}
+section{
+    height:300px;
+}
+.link-btn{
+    text-decoration: none;
+    background-color:orange;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: wheat;
+    font-weight: bold;
+}
+
+.dream-area{
+    background-image: url("image/cr.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 7px;
+    height: 60%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-color: green;
+    border-image-slice: 1;
+
+}
+#full-stack1{
+    border-left: 7px solid;
+    border-color:greenyellow;
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
